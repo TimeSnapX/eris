@@ -1,0 +1,13 @@
+:root{--bg:#12060f;--card:#1f0c1a;--fg:#f6e9f1;--mut:#a98a9c;--acc:#ff2d75;--y:#ffd400;--g:#3ddc84;--r:#ff5252}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 12px;border-bottom:1px solid #3a1730}
+.brand{display:flex;gap:10px;align-items:center}.logo{width:36px;height:36px;border-radius:8px}h1{margin:0;font-size:18px;letter-spacing:3px;color:var(--acc)}small{color:var(--mut)}
+.hr{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.pill{border:1px solid #4a2040;border-radius:99px;padding:3px 9px;font-size:12px}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:7px 12px;cursor:pointer;text-decoration:none;font-size:13px}.btn.small{padding:4px 9px;font-size:12px}.btn.ghost{background:transparent;border:1px solid var(--acc);color:var(--acc)}
+.nfa{background:#3a1500;color:var(--y);padding:6px 12px;font-size:12px}nav{display:flex;gap:4px;padding:8px 12px}nav button{background:none;border:0;color:var(--mut);padding:6px 10px;border-radius:8px;cursor:pointer}nav button.on{background:var(--card);color:var(--fg)}
+main{padding:0 12px 20px;display:grid;gap:10px}.card{background:var(--card);border-radius:12px;padding:10px 12px}.row{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.flags{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}.f{font-size:11px;padding:2px 7px;border-radius:99px;background:#2b1424}.f.bad{background:#4a0f18;color:#ff9aa5}.f.ok{background:#0f3a22;color:#9df0c0}.f.unk{color:var(--mut)}
+.mut{color:var(--mut);font-size:12px}a{color:var(--y)}table{width:100%;border-collapse:collapse}td,th{padding:4px;text-align:left;border-bottom:1px solid #3a1730;font-size:12px}
+footer{padding:12px;color:var(--mut);font-size:11px}.hidden{display:none}#install-hint{background:var(--card);padding:8px 12px;display:flex;justify-content:space-between}
+#install-hint.hidden{display:none}#toasts{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);display:grid;gap:6px}.toast{background:#000c;padding:8px 12px;border-radius:8px}
+input{background:#000;color:var(--fg);border:1px solid #4a2040;border-radius:6px;padding:5px;width:90px}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Eris · Mayhem Mode</title>
+<meta name="description" content="Eris: live pump.fun Mayhem Mode coin feed with risk flags and a paper portfolio. Not financial advice.">
+<meta name="theme-color" content="#12060f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+<script src="js/install.js"></script>
+</head><body>
+<header><div class="brand"><img src="icons/icon-192.png" alt="" class="logo"><div><h1>ERIS</h1><small id="status">Booting…</small></div></div>
+ <div class="hr"><span id="walletBadge" class="pill">Wallet: checking…</span><a id="openPhantom" class="btn small" target="_blank" rel="noopener">👻 Open in Phantom</a><span class="pill">PAPER ONLY</span><button class="btn small install-btn" type="button">📲 Install</button></div></header>
+<div class="nfa">⚠ Not financial advice. Mayhem Mode coins have 2B supply and an AI agent trading them randomly for up to 24h. Eris never signs anything: no live trading, links out only.</div>
+<div id="install-hint" class="hidden" role="status"><span class="ih-text"></span><button class="ih-close btn small" type="button" aria-label="Close">✕</button></div>
+<nav><button data-tab="feed" class="on">Mayhem feed</button><button data-tab="portfolio">Paper portfolio</button><button data-tab="about">About</button></nav>
+<main id="main"></main>
+<div id="toasts"></div>
+<footer>Data: PumpPortal websocket (<code>is_mayhem_mode</code>), DexScreener, RugCheck, public Solana RPC, all keyless from your browser. Missing fields read “unknown”. <b>Not financial advice.</b></footer>
+<script type="module" src="src/app.js"></script>
+</body></html>

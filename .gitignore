@@ -1,0 +1,11 @@
+node_modules/
+dist/
+# Local data / state / scan outputs: never commit
+*.json
+!manifest.webmanifest
+*.csv
+*.log
+scan*/
+data/
+out/
+.env*
